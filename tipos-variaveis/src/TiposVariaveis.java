@@ -19,5 +19,9 @@ public class TiposVariaveis {
 
         System.out.println("Meu nome é " + meuNome + " e eu tenho " + IDADE + " anos de idade.");
 
+        int somar = numeroCurto2 + numeroNormal;
+
+        System.out.print(somar);
+
     }
 }
