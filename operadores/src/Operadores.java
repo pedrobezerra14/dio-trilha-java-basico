@@ -1,13 +1,39 @@
 public class Operadores {
     public static void main(String[] args) {
-        int a, b;
+        String nomeUm = "PEDRO";
+        String nomeDois = "PEDRO";
 
-        a = 5;
-        b = 5;
+        System.out.println(nomeUm == nomeDois);
 
-        String resultado = a==b ? "verdadeiro" : "falso";
+        // int numero1 = 1;
+        // int numero2 = 2;
 
-        System.out.println(resultado);
+        // boolean simNao = numero1 == numero2;
+
+        // if(numero1 < numero2){
+        //     System.out.println(" a nossa condição é verdadeira");
+        // } else{
+        //     System.out.println("a condição é falsa");
+        // }
+
+        // System.out.println("numeroUm é igual a numeroDois? " + simNao);
+
+        // simNao = numero1 != numero2;
+
+        // System.out.println("numeroUm é diferente de numeroDois? " + simNao);
+
+        // simNao = numero1 > numero2;
+
+        // System.out.println("numeroUm é maior que numeroDois? " + simNao);
+
+        // int a, b;
+
+        // a = 5;
+        // b = 5;
+
+        // String resultado = a==b ? "verdadeiro" : "falso";
+
+        // System.out.println(resultado);
 
         // boolean variavel = true;
 
