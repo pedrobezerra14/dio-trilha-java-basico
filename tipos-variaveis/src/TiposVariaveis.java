@@ -1,7 +1,7 @@
 public class TiposVariaveis {
     public static void main(String[] args) throws Exception {
 
-        
+        String meuNome = "Pedro";
 
         double salarioMinimo = 2500;
 
@@ -15,6 +15,9 @@ public class TiposVariaveis {
 
         System.out.println(numero);
 
-        final double IDADE = 18;
+        final int IDADE = 18;
+
+        System.out.println("Meu nome é " + meuNome + " e eu tenho " + IDADE + " anos de idade.");
+
     }
 }
