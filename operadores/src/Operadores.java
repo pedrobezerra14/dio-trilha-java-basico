@@ -1,9 +1,20 @@
 public class Operadores {
     public static void main(String[] args) {
-        String nomeUm = "PEDRO";
-        String nomeDois = "PEDRO";
+        boolean condicao1 = true;
+        boolean condicao2 = false;
 
-        System.out.println(nomeUm == nomeDois);
+        if(condicao1 && (7 > 4)){
+            System.out.println("As duas condições são verdadeiras.");
+        }
+
+        if(condicao1 || condicao2){
+            System.out.println("Alguma das duas condições é verdadeira.");
+        }
+
+        // String nomeUm = "PEDRO";
+        // String nomeDois = "PEDRO";
+
+        // System.out.println(nomeUm == nomeDois);
 
         // int numero1 = 1;
         // int numero2 = 2;
