@@ -28,7 +28,7 @@ public class ProcessoSeletivo {
 		if(atendeu)
 			System.out.println("Conseguimos contato com " + candidato + " na " + tentativasRealizadas + " tentativa");
 		else
-			System.out.println("Não conseguimos contato com " + candidato + ", número máximo foi de" + tentativasRealizadas + " tentativas");
+			System.out.println("Não conseguimos contato com " + candidato + ", número máximo foi de " + tentativasRealizadas + " tentativas");
 	}
 	
 	static boolean atender() {
